@@ -1,0 +1,20 @@
+Hello Github!
+Edit text 001
+
+1.command memo
+
+選択されていDirectoryにローカルリポジトリを作成する
+$ git init
+
+変更したファイルをインデックスに追加（ローカルリポジトリに追加）
+$ git add ファイル名
+
+ローカルリポジトリに追加（option:ファイルにコメントを登録）
+$ git commit -m "変更点などのコメント"
+
+ローカルリポジトリのファイルを追加する先の指定（GitHubに作成）
+$ git remote add origin リポジトリのURI
+
+ローカルリポジトリのファイルをGitHubのリポジトリに送信
+$ git push origin master
+
